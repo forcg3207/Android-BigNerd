@@ -1,12 +1,13 @@
 package com.example.hhui.criminalintent;
 
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class RootActivity extends ActionBarActivity {
+public class RootActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
